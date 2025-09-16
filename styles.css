@@ -1,0 +1,38 @@
+body {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 100vw;
+  min-height: calc(100vh - (100px));
+  font-family: sans-serif, arial;
+}
+.header-img {
+  width: 60vw;
+  border: solid black 2px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 12px rgba(0,0,0,0.3);
+}
+hr, section {
+  width: 100%;
+  margin-left: 10px;
+}
+hr {
+  border: none;
+  background-color: black;
+  height: 1px;
+}
+ul, h2 {
+  text-align: left;
+  line-height: 1.5;
+}
+.sous-titre {
+  text-align: center;
+}
+footer {
+  height: 10vh;
+  background: linear-gradient(to bottom, #ffffff, #cccccc);
+}
